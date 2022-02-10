@@ -10,7 +10,7 @@ var player_object="";
 var block_object="";
 
 function player_update(){
-    fabric.Image.fromURL("player.png",function(Img){
+    fabric.Image.fromURL("henry.png",function(Img){
         player_object=Img;
         player_object.scaleToWidth(150);
         player_object.scaleToHeight(140);
